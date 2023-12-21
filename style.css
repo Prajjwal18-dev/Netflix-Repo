@@ -69,7 +69,7 @@ nav button {
     cursor: pointer;   /*change cursor from pointer to hand*/
     font-family: 'Poppins','Martel Sans', sans-serif;
 }
-.hero {
+.center_text {
     height: calc(100% - 99px);
     display: flex;
     align-items: center;
@@ -85,16 +85,16 @@ nav button {
 
 }
 
-.hero> :first-child{ 
+.center_text> :first-child{ 
     font-weight: 900;
     font-size: 48px;
 }
 
-.hero> :nth-child(2){
+.center_text> :nth-child(2){
     font-weight: 400;
     font-size: 24px;
 }
-.hero> :nth-child(3){
+.center_text> :nth-child(3){
     font-weight: 400;
     font-size: 20px;
 }
@@ -136,7 +136,7 @@ nav button {
     font-weight: 500;   
 }
 
-.main .hero-buttons {
+.main .center_text-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
